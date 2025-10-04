@@ -1,5 +1,5 @@
 variable "aws_region" {
-  default     = "ap-southeast-7"
+  default     = "ap-southeast-1"
 }
 
 variable "vpc_cidr" {
@@ -15,11 +15,11 @@ variable "private_subnet_cidr" {
 }
 
 variable "public_subnet_az" {
-  default     = "ap-southeast-7a"
+  default     = "ap-southeast-1a"
 }
 
 variable "private_subnet_az" {
-  default     = "ap-southeast-7b"
+  default     = "ap-southeast-1b"
 }
 
 variable "public_ami" {
