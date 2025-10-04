@@ -23,11 +23,11 @@ variable "private_subnet_az" {
 }
 
 variable "public_ami" {
-  default     = "ami-0360c520857e3138f"  
+  default     = "ami-0e4f6ae724df740e7"  
 }
 
 variable "private_ami" {
-  default     = "ami-0360c520857e3138f"  
+  default     = "ami-0e4f6ae724df740e7"  
 }
 
 variable "instance_type" {
