@@ -132,7 +132,7 @@ resource "aws_instance" "public_instance" {
     # Add additional tags as needed
   }
 
-  key_name               = aws_key_pair.ec2_key_pair.key_name
+  # key_name               = aws_key_pair.ec2_key_pair.key_name
 }
 
 resource "aws_instance" "private_instance" {
